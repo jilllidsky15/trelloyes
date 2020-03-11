@@ -5,7 +5,8 @@ function Card(props) {
   return (
     <div className='Card'>
       <button
-        type='button'>
+        type='button'
+        onClick={props.onDeleteCard}>
         delete
       </button>
       <h3>{props.title}</h3>
